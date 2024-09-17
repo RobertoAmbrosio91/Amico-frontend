@@ -1,0 +1,21 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+      
+        "appID": "5ULPQ63W9X.com.robya91.noosk",
+ 
+        "paths": ["*"]
+      }
+    ]
+  },
+
+  "activitycontinuation": {
+    "apps": ["5ULPQ63W9X.com.robya91.noosk"]
+  },
+
+  "webcredentials": {
+    "apps": ["5ULPQ63W9X.com.robya91.noosk"]
+  }
+}

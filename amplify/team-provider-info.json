@@ -1,0 +1,23 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-noosk-dev-111611-authRole",
+      "UnauthRoleArn": "arn:aws:iam::662577658568:role/amplify-noosk-dev-111611-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::662577658568:role/amplify-noosk-dev-111611-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-noosk-dev-111611-deployment",
+      "UnauthRoleName": "amplify-noosk-dev-111611-unauthRole",
+      "StackName": "amplify-noosk-dev-111611",
+      "StackId": "arn:aws:cloudformation:us-east-1:662577658568:stack/amplify-noosk-dev-111611/84307e80-35fe-11ee-89aa-0eab0be603d7",
+      "AmplifyAppId": "d21ecdunhrm49x"
+    },
+    "categories": {
+      "auth": {
+        "noosk29592cc9": {}
+      },
+      "storage": {
+        "s3ef0efec0": {}
+      }
+    }
+  }
+}

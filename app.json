@@ -1,0 +1,170 @@
+{
+  "expo": {
+    "name": "Amico",
+    "slug": "amico",
+    "version": "7.0.8",
+    "description": "Welcome to Amico — Your Space to Share Collective Memories\n\nAmico is an innovative app dedicated to enriching lives by bringing friends and families closer together through the shared celebration of life's most joyful moments. It's more than just a platform; it's a community where memories are treasured, experiences are shared, and bonds are strengthened. With Amico, you can capture, share, and relive the moments that matter most, Share your stories, your laughter, and your love, and help build a more connected world.",
+    "keywords": [
+      "social",
+      "socialmedia",
+      "events",
+      "friends",
+      "pictures",
+      "videos",
+      "memory",
+      "community",
+      "memories",
+      "special moment",
+      "users",
+      "user-generated content"
+    ],
+    "orientation": "portrait",
+    "icon": "./assets/images/splash_screen/amico_new_splash.png",
+    "scheme": "amico",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/images/splash_screen/amico_new_splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#01012d"
+    },
+    "plugins": [
+      [
+        "expo-updates",
+        {
+          "username": "roberto_noosk"
+        }
+      ],
+      [
+        "expo-contacts",
+        {
+          "contactsPermission": "Allow $(Amico) to access your contacts."
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Allow Amico to access your pictures and videos so you can share them with the community"
+        }
+      ],
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow Amico to access your camera to take pictures and videos to let you share them with the community"
+        }
+      ],
+      [
+        "expo-build-properties",
+        {
+          "ios": {
+            "useFrameworks": "static"
+          }
+        }
+      ],
+
+      ["@react-native-google-signin/google-signin"],
+      ["@react-native-firebase/app", "@react-native-firebase/auth"],
+      ["expo-apple-authentication"],
+      "expo-router",
+      [
+        "@sentry/react-native/expo",
+        {
+          "organization": "noosk-1b77d88da",
+          "project": "amico"
+        }
+      ]
+    ],
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "infoPlist": {
+        "NSAppTransportSecurity": {
+          "NSAllowsArbitraryLoads": true,
+          "CFBundleURLTypes": [
+            {
+              "CFBundleTypeRole": "Editor",
+              "CFBundleURLSchemes": [
+                "com.googleusercontent.apps.1045395831825-i2vqma9lpmh3u44m78ton9bpeb5dqqsc"
+              ]
+            }
+          ]
+        },
+        "NSLocationWhenInUseUsageDescription": "This app requires your location to suggest nearby places",
+        "NSContactsUsageDescription": "Allow $(Amico) to access your contacts."
+      },
+      "associatedDomains": ["applinks:noosk.co"],
+      "supportsTablet": true,
+      "bundleIdentifier": "com.robya91.noosk",
+      "googleServicesFile": "./GoogleService-Info.plist",
+      "usesAppleSignIn": true,
+      "buildNumber": "33"
+    },
+    "android": {
+      "intentFilters": [
+        {
+          "action": "VIEW",
+          "autoVerify": true,
+          "data": [
+            {
+              "scheme": "https",
+              "host": "noosk.co"
+            }
+          ],
+          "category": ["BROWSABLE", "DEFAULT"]
+        }
+      ],
+      "googleServicesFile": "./google-services.json",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.robya91.noosk",
+      "permissions": [
+        "android.permission.RECORD_AUDIO",
+        "android.permission.ACCESS_FINE_LOCATION",
+        "android.permission.READ_CONTACTS",
+        "android.permission.WRITE_CONTACTS",
+        "android.permission.CAMERA"
+      ],
+      "versionCode": 33
+    },
+    "web": {
+      "favicon": "./assets/images/splash_screen/amico_new_splash.png",
+      "output": "static",
+      "bundler": "metro"
+    },
+    "notification": {
+      "icon": "./assets/images/splash_screen/amico_new_splash.png"
+    },
+    "extra": {
+      "firebase": {
+        "common": {
+          "apiKey": "AIzaSyCxjradi0mN8DQdguTS0DA4VBgjEnb4J3k",
+          "authDomain": "noosk-b90d2.firebaseapp.com",
+          "projectId": "noosk-app",
+          "storageBucket": "noosk-app.appspot.com",
+          "messagingSenderId": "1045395831825",
+          "databaseURL": "https://noosk-app-default-rtdb.firebaseio.com",
+          "measurementId": "G-ZKFV7JESWD"
+        },
+        "android": {
+          "appId": "1:1045395831825:android:242123e8ede1fbe5c185b0"
+        },
+        "ios": {
+          "appId": "1:1045395831825:ios:84abdceda23744d0c185b0"
+        }
+      },
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "c383cf82-7325-4dff-98b2-af0ea80bf4cc"
+      }
+    },
+    "owner": "noosk",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/c383cf82-7325-4dff-98b2-af0ea80bf4cc"
+    }
+  }
+}

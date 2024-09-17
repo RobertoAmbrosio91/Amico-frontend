@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "target": "es2016",
+    "baseUrl": ".",
+    "paths": {
+      "@/components/*": ["src/components/*"],
+      "@/config/*": ["src/config/*"],
+      "@/services/*": ["src/functionality/*"],
+      "@/hooks/*": ["src/hooks/*"],
+      "@/types":["src/types"],
+    },
+    "module": "commonjs",
+    "jsx": "react-native",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "allowJs": true,
+    "skipLibCheck": true,
+    "noEmit": true,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "isolatedModules": true
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    "aws_export/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "babel.config.js",
+    "metro.config.js",
+    "jest.config.js"
+  ],
+  "extends": "expo/tsconfig.base"
+}
