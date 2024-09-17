@@ -82,7 +82,7 @@
             {
               "CFBundleTypeRole": "Editor",
               "CFBundleURLSchemes": [
-                "com.googleusercontent.apps.1045395831825-i2vqma9lpmh3u44m78ton9bpeb5dqqsc"
+                "****************************************"
               ]
             }
           ]
@@ -137,7 +137,7 @@
     "extra": {
       "firebase": {
         "common": {
-          "apiKey": "AIzaSyCxjradi0mN8DQdguTS0DA4VBgjEnb4J3k",
+          "apiKey": "**************************",
           "authDomain": "noosk-b90d2.firebaseapp.com",
           "projectId": "noosk-app",
           "storageBucket": "noosk-app.appspot.com",
@@ -146,17 +146,17 @@
           "measurementId": "G-ZKFV7JESWD"
         },
         "android": {
-          "appId": "1:1045395831825:android:242123e8ede1fbe5c185b0"
+          "appId": "**************************"
         },
         "ios": {
-          "appId": "1:1045395831825:ios:84abdceda23744d0c185b0"
+          "appId": "******************************"
         }
       },
       "router": {
         "origin": false
       },
       "eas": {
-        "projectId": "c383cf82-7325-4dff-98b2-af0ea80bf4cc"
+        "projectId": "****************************"
       }
     },
     "owner": "noosk",
