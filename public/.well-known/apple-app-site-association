@@ -4,7 +4,7 @@
     "details": [
       {
       
-        "appID": "5ULPQ63W9X.com.robya91.noosk",
+        "appID": "*****************",
  
         "paths": ["*"]
       }
@@ -12,10 +12,10 @@
   },
 
   "activitycontinuation": {
-    "apps": ["5ULPQ63W9X.com.robya91.noosk"]
+    "apps": ["*****************"]
   },
 
   "webcredentials": {
-    "apps": ["5ULPQ63W9X.com.robya91.noosk"]
+    "apps": ["*****************"]
   }
 }
